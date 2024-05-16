@@ -1,0 +1,5 @@
+<dependency>
+  <groupId>io.gitlab.arturbosch.detekt</groupId>
+  <artifactId>detekt-gradle-plugin</artifactId>
+  <version>1.21.0</version>
+</dependency>
