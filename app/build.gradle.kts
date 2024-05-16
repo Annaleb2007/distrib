@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("io.gitlab.arturbosch.detekt") version "1.23.6"
+    id("io.gitlab.arturbosch.detekt") version "1.21.0"
 }
 
 android {
@@ -57,4 +58,8 @@ android {
     defaultConfig {
         testInstrumentationRunner ; "io.github.kakaocup.kakao.runner.KakaoAndroidJUnitRunner"
     }
+}
+detekt {
+    config = files("$rootDir/config/detekt/detekt.yml")
+    buildUponDefaultConfig = true
 }
