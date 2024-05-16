@@ -16,3 +16,4 @@ ViewModel создается заново при повороте экрана, 
 После выгрузки проекта на github бало создано две ветки: develop и master. Ветка master является основной и в нее дополнительно был добавлен файл main.yml в папку .github/workflows для автосборки и тестирования кода. 
 
 ![image](https://github.com/Annaleb2007/distrib/assets/106704920/02bb00f1-75be-4995-ad3f-bcff374f292a)
+![image](https://github.com/Annaleb2007/distrib/assets/106704920/61538d36-d538-4b38-b5ef-0830b14fa114)
